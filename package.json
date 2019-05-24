@@ -4,7 +4,6 @@
   "description": "A Gatsby theme with my personal configuration (blank)",
   "main": "index.js",
   "license": "MIT",
-  "private": true,
   "peerDependencies": {
     "gatsby": "^2.7.1",
     "react": "^16.8.6",
