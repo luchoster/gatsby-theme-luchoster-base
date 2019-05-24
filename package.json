@@ -10,12 +10,7 @@
   "homepage": "https://github.com/luchoster/gatsby-theme-luchoster-base",
   "main": "index.js",
   "license": "MIT",
-  "keywords": [
-    "gatsby",
-    "theme",
-    "luchoster",
-    "gatsby-theme"
-  ],
+  "keywords": ["gatsby", "theme", "luchoster", "gatsby-theme"],
   "peerDependencies": {
     "gatsby": "^2.7.1",
     "react": "^16.8.6",
@@ -36,7 +31,6 @@
     "gatsby-plugin-page-creator": "^2.0.13",
     "gatsby-plugin-react-helmet": "^3.0.12",
     "gatsby-plugin-sass": "^2.0.11",
-    "gatsby-theme-luchoster-base": "*",
     "node-sass": "^4.12.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
