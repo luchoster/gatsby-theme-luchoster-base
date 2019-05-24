@@ -1,0 +1,39 @@
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1900px
+);
+
+$container: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1610px
+);
+
+// Palette.
+$palette: (
+  bg-alt: #333333,
+  bg: #ffffff,
+  fg: #000000,
+  fg-bold: #000000,
+  fg-light: #000000,
+  border: rgba(0, 0, 0, 0.125),
+  border-bg: rgba(0, 0, 0, 0.05),
+  lightGreen: #a4cc4a,
+  blue: #000,
+  yellow: #fde9a4,
+  invert:
+    (
+      bg: #3a3a3a,
+      fg: #ffffff,
+      fg-bold: #ffffff,
+      fg-light: rgba(255, 255, 255, 0.5),
+      border: #ffffff,
+      border-bg: rgba(255, 255, 255, 0.05)
+    )
+);

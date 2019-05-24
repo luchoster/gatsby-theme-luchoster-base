@@ -1,0 +1,39 @@
+// breakpoints.scss v1.0 | @ajlkn | MIT licensed */
+
+// Vars.
+
+/// Breakpoints.
+/// @var {list}
+$breakpoints: () !global;
+
+// Mixins.
+
+/// Sets breakpoints.
+/// @param {map} $x Breakpoints.
+@mixin breakpoints($x: ()) {
+  $breakpoints: $x !global;
+}
+
+/// Wraps @content in a @media block targeting a specific orientation.
+/// @param {string} $orientation Orientation.
+@mixin orientation($orientation) {
+  @media screen and (orientation: #{$orientation}) {
+    @content;
+  }
+}
+
+/// Wraps @content in a @media block using a given query.
+/// @param {string} $query Query.
+
+@mixin breakpoint($class) {
+  @if $class == xs {
+    @media (max-width: 767px) {
+      @content;
+    }
+  } @else {
+    @media (min-width: _grid-breakpoint($class)) {
+      @content;
+    }
+    // @warn "Breakpoint mixin supports: xs, sm, md, lg";
+  }
+}
