@@ -1,6 +1,6 @@
 {
   "name": "gatsby-theme-luchoster-base",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A Gatsby theme with my personal configuration (blank)",
   "author": "luchoster <im@luchoster.dev> (@luchoster)",
   "repository": {
@@ -10,7 +10,12 @@
   "homepage": "https://github.com/luchoster/gatsby-theme-luchoster-base",
   "main": "index.js",
   "license": "MIT",
-  "keywords": ["gatsby", "theme", "luchoster", "gatsby-theme"],
+  "keywords": [
+    "gatsby",
+    "theme",
+    "luchoster",
+    "gatsby-theme"
+  ],
   "peerDependencies": {
     "gatsby": "^2.13.76",
     "react": "^16.9.0",
