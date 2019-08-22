@@ -30,7 +30,6 @@ body {
 }
 
 .logo {
-  animation: Logo-spin infinite 20s linear;
   height: 40;
 }
 
@@ -40,10 +39,6 @@ body {
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-}
-
-.content {
-  height: calc(100vh - 325px);
 }
 
 .link {

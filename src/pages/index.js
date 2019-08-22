@@ -6,7 +6,7 @@ import SEO from '../components/SEO'
 export default () => (
   <Layout>
     <SEO />
-    <div className="container content">
+    <div className="container">
       <h1 className="text--center">Hello World!</h1>
     </div>
   </Layout>
