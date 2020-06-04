@@ -10,6 +10,12 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
     {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
+      },
+    },
+    {
       resolve: 'gatsby-plugin-page-creator',
       options: {
         path: path.join(__dirname, 'src', 'pages'),

@@ -28,7 +28,11 @@ Then create your config:
 
 ```js:title=gatsby-config.js
 module.exports = {
-  __experimentalThemes: ["gatsby-theme-luchoster-base"],
+  plugins: [
+     {
+       resolve: 'gatsby-theme-luchoster-base'
+     }
+  ],
 }
 ```
 
@@ -40,13 +44,13 @@ If you would like to use some of the predefined mixins, breakpoints and/or funct
 
   ```
   .block {
-  	color: #eee;
-	@include modifier('block--mod') {
-  		color: #042;
-  	}
-  	@include element('block__elem') {
-  		color: #fff;
-  	}
+      color: #eee;
+      @include modifier('block--mod') {
+        color: #042;
+      }
+      @include element('block__elem') {
+        color: #fff;
+      }
   }
   ```
 
@@ -75,7 +79,7 @@ If you would like to use some of the predefined mixins, breakpoints and/or funct
 
     ```
     .hero {
-    	height: 350px;
+        height: 350px;
         @include breakpoint(md) {
         	height: 550px;
         }
